@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">UdaPlayer</string>
+    <string name="mainActivityExplanation">This is the main screen of the app,from here you can jump to every activity this app includes.</string>
+    <string name="nowPlayingActivityExplanation">This activity is focusing on the song that is currently playing. You can pause/play/previous/next/shuffle/repeat. You can also jump to the main screen and the playlists activity by tapping the top left and top right icons.</string>
+    <string name="myMusic">My Music</string>
+    <string name="nowPlaying">Now Playing</string>
+    <string name="tracks">Tracks</string>
+    <string name="playlists">Playlists</string>
+    <string name="albums">Albums</string>
+    <string name="artists">Artists</string>
+    <string name="starttimeseekbar">0:00</string>
+    <string name="endtimeseekbar">3:29</string>
+</resources>

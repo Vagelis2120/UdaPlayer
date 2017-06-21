@@ -1,0 +1,168 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="ParentLinear">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:orientation">vertical</item>
+        <item name="android:background">@android:color/black</item>
+        <item name="android:padding">@dimen/ParentLinearPadding</item>
+    </style>
+
+    <style name="MainExplanation">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:background">@android:color/darker_gray</item>
+    </style>
+
+    <style name="MyMusic">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">@dimen/MyMusicTxtSize</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:layout_gravity">center_horizontal</item>
+    </style>
+
+    <style name="NowPlayingTxt">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:drawableLeft">@drawable/playing</item>
+        <item name="android:drawableStart">@drawable/playing</item>
+        <item name="android:drawablePadding">@dimen/NowPlayingDrawablePadding</item>
+        <item name="android:textSize">@dimen/MainTextSize</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:layout_marginTop">@dimen/NowPlayingMarginTop</item>
+        <item name="android:paddingBottom">@dimen/SmallPaddingBottomg</item>
+    </style>
+
+    <style name="View">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">1dp</item>
+        <item name="android:background">@android:color/white</item>
+    </style>
+
+    <style name="TrcksPlayListsTextViews">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">@dimen/MainTextSize</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:drawablePadding">@dimen/SmallDrawablePadding</item>
+        <item name="android:paddingTop">@dimen/SmallPaddingBottomg</item>
+        <item name="android:gravity">center_vertical</item>
+    </style>
+
+    <style name="AlbArtistsTextViews">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">@dimen/MainTextSize</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:drawablePadding">@dimen/BigDrawablePadding</item>
+        <item name="android:paddingTop">@dimen/SmallPaddingBottomg</item>
+        <item name="android:gravity">center_vertical</item>
+    </style>
+    
+    <style name="NowPlayingRelativeLayout">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:background">@android:color/black</item>
+    </style>
+    
+    <style name="BackToMainScreenImage">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:padding">16dp</item>
+        <item name="android:src">@drawable/back</item>
+    </style>
+    
+    <style name="GoToPlaylistImage">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_alignParentEnd">true</item>
+        <item name="android:padding">16dp</item>
+        <item name="android:src">@drawable/gotoplaylist</item>
+    </style>
+
+    <style name="NowPlayingExplanation">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:background">@android:color/darker_gray</item>
+        <item name="android:layout_marginTop">50dp</item>
+        <item name="android:layout_alignParentTop">true</item>
+        <item name="android:layout_alignParentLeft">true</item>
+        <item name="android:layout_alignParentStart">true</item>
+    </style>
+
+    <style name="PianoImage">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:src">@drawable/piano</item>
+        <item name="android:layout_above">@id/playingLinear</item>
+        <item name="android:layout_alignParentLeft">true</item>
+        <item name="android:layout_alignParentStart">true</item>
+    </style>
+
+    <style name="SymbolsLinearNowPlaying">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_alignParentBottom">true</item>
+        <item name="android:layout_marginLeft">50dp</item>
+        <item name="android:layout_marginRight">50dp</item>
+        <item name="android:paddingTop">8dp</item>
+    </style>
+
+    <style name="ShuffleSymbol">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginRight">16dp</item>
+        <item name="android:paddingTop">12dp</item>
+        <item name="android:src">@drawable/shuffle</item>
+    </style>
+    
+    <style name="RewindnNextSymbols">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:paddingTop">12dp</item>
+    </style>
+
+    <style name="PlaySymbol">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginLeft">16dp</item>
+        <item name="android:layout_marginRight">16dp</item>
+        <item name="android:src">@drawable/play</item>
+    </style>
+
+    <style name="RepeatSymbol">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:paddingTop">12dp</item>
+        <item name="android:layout_marginLeft">16dp</item>
+        <item name="android:src">@drawable/repeat</item>
+    </style>
+
+    <style name="SeekBarLinear">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_above">@id/playingLinear</item>
+        <item name="android:layout_centerHorizontal">true</item>
+        <item name="android:orientation">horizontal</item>
+    </style>
+
+    <style name="StartnEndTimeSeekBar">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textSize">20sp</item>
+    </style>
+
+</resources>

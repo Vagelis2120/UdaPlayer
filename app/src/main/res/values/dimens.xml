@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="ParentLinearPadding">16dp</dimen>
+    <dimen name="MyMusicTxtSize">32sp</dimen>
+    <dimen name="MainTextSize">20sp</dimen>
+    <dimen name="SmallDrawablePadding">16dp</dimen>
+    <dimen name="BigDrawablePadding">28dp</dimen>
+    <dimen name="NowPlayingDrawablePadding">24dp</dimen>
+    <dimen name="NowPlayingMarginTop">40dp</dimen>
+    <dimen name="SmallPaddingBottomg">8dp</dimen>
+</resources>

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/ParentLinear"
+    tools:context="com.example.android.udaplayer.MainActivity">
+
+    <TextView
+        style="@style/MainExplanation"
+        android:text="@string/mainActivityExplanation" />
+
+    <TextView
+        style="@style/MyMusic"
+        android:text="@string/myMusic"/>
+
+    <TextView
+        android:id="@+id/NowPlaying"
+        style="@style/NowPlayingTxt"
+        android:text="@string/nowPlaying"/>
+
+    <View
+        style="@style/View"/>
+
+    <TextView
+        android:id="@+id/Tracks"
+        style="@style/TrcksPlayListsTextViews"
+        android:drawableStart="@drawable/tracks"
+        android:drawableLeft="@drawable/tracks"
+        android:text="@string/tracks" />
+
+    <View
+        style="@style/View"/>
+
+    <TextView
+        android:id="@+id/Playlists"
+        style="@style/TrcksPlayListsTextViews"
+        android:drawableStart="@drawable/playlist"
+        android:drawableLeft="@drawable/playlist"
+        android:text="@string/playlists"/>
+
+    <View
+        style="@style/View"/>
+
+    <TextView
+        android:id="@+id/Albums"
+        style="@style/AlbArtistsTextViews"
+        android:drawableStart="@drawable/albums"
+        android:drawableLeft="@drawable/albums"
+        android:text="@string/albums"/>
+
+    <View
+        style="@style/View"/>
+
+    <TextView
+        android:id="@+id/Artists"
+        style="@style/AlbArtistsTextViews"
+        android:drawableStart="@drawable/artist"
+        android:drawableLeft="@drawable/artist"
+        android:text="@string/artists"/>
+
+</LinearLayout>
